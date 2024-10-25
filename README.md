@@ -1,2 +1,2 @@
 # computerGraphics
-laboratory works on computer graphics
+laboratory works of computer graphics
