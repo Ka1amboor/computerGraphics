@@ -77,7 +77,7 @@ void MainWindow::updatePosition()
     int radius = 100; // Радиус вращения
 
     // Обновление угла
-    angle += 0.05; // Изменяйте угол для скорости вращения
+    angle += 0.05; //  угол для скорости вращения
 
     // Новые координаты круга
     int x = centerX + radius * std::cos(angle) - circ->width() / 2;
