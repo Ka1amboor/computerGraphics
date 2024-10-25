@@ -22,13 +22,13 @@ void CircularWidget::paintEvent(QPaintEvent *event)
     int radius = qMin(width(), height()) / 2;
     painter.drawEllipse(width()/2-radius,height()/2-radius,radius*2, radius*2);
     QFont font = painter.font();
-    font.setPointSize(52); // Размер шрифта
+    font.setPointSize(52); 
     painter.setFont(font);
 
-    QString text = "BRAT"; // Текст, который вы хотите отобразить
+    QString text = "BRAT"; 
     QRect textRect = QRect(0, 0, width(), height());
 
-    // Размещаем текст по центру
+    
     painter.drawText(textRect, Qt::AlignCenter, text);
 
 }
